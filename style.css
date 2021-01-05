@@ -1,0 +1,111 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+body header {
+    background: rgb(47, 47, 47);
+    height: 85px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+nav {
+    width: 1200px;
+
+    margin: 0px auto;
+    text-align: center;
+
+}
+nav img {
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    text-align: center;
+
+}
+nav ul li{
+    text-align: center;
+    text-align: justify;
+}
+nav li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    text-align: center;
+
+}
+a {
+    color: rgb(179, 172, 172);
+    text-decoration: none;
+    text-align: center;
+
+}
+main {
+    width: 960px;
+    margin: 0px auto;
+    text-align: center;
+
+}
+main li {
+    
+    float: left;
+    margin: 30px 30px 30px 0px;
+    text-align: center;
+
+}
+main li:last-child{
+    margin-right: 0px;
+    text-align: center;
+
+}
+main section img {
+    float: left;
+    text-align: center;
+
+}
+main section div{
+    font-style: italic;
+    text-align: center;
+
+}
+main section div {
+    width: calc(50% - 30px);
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+main section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+main section p {
+    height: 322px;
+    overflow: scroll;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+main section button {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    padding: 10px 30px;
+    transition: 500ms;
+    text-align: center;
+
+}
+main section button:hover {
+    background: rgb(103, 172, 228);
+}
+footer{
+    clear : both;
+    height: 80px;
+    background: rgb(63, 62, 62);
+}
